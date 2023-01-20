@@ -10,14 +10,19 @@
  * Base structure
  */
 
- body {
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+.body {
+    /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
     /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
   }
 
 .global-container {
-max-width: 95%;
-height:100%;
+  max-width: 95%;
+  height:100%;
+}
+
+.baike-container {
+  background-color: gainsboro;
+  box-shadow: inset 0 0 1rem rgba(0, 0, 0, .5);
 }
   
   /*
@@ -47,4 +52,51 @@ height:100%;
     border-bottom-color: #fff;
   }
   
-  
+
+  /* baike */
+  .pic {
+    width: 100%;
+  }
+
+  .pic-profile {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .relation-p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+
+  tr {
+    border-bottom: 1pt solid gray;
+  }
+
+ .content-container1 {
+  background-color: lightgray;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1pt solid gray;
+  border-bottom: 1pt solid gray;
+}
+
+ .content-container2 {
+  border-top: 1pt solid gray;
+  border-bottom: 1pt solid gray;
+ }
+
+ol {
+  margin: 0;
+  vertical-align: middle;
+}
+
+ .content-a {
+  color: darkblue;
+  text-decoration: none;
+ }
+
+ .header-container {
+  border-left: 15pt solid #00337C;
+ }
